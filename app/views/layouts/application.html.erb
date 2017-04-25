@@ -5,10 +5,13 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <%= javascript_include_tag 'application' %>
   </head>
 
   <body>
+    <%= render 'shared/header' %>
     <%= yield %>
+    <%= render 'shared/footer' %>
   </body>
 </html>
