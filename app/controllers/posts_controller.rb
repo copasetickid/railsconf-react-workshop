@@ -3,13 +3,33 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.published
+
+    respond_to do |format|
+      format.html {}
+      format.json do
+        render json: @posts
+      end
+    end
   end
 
   def drafts
     @posts = Post.drafts
+
+    respond_to do |format|
+      format.html {}
+      format.json do
+        render json: @posts
+      end
+    end
   end
 
   def show
+    respond_to do |format|
+      format.html {}
+      format.json do
+        render json: @post
+      end
+    end
   end
 
   def edit
