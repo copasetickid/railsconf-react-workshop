@@ -34,5 +34,4 @@ Post.create(title: "Animal Farm", body: "Lorem Ipsum is simply dummy text of the
                         published_date: 62.years.ago, draft: false, published: true, author: author6)
 
 Post.create(title: "Black Privilege", body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            published_date: 1.week.ago
-            , draft: false, published: true, author: author7)
+            published_date: 1.week.ago, draft: false, published: true, author: author7)
