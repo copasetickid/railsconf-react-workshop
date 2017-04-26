@@ -1,1 +1,45 @@
 @import "materialize";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+
+  li {
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+.authors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.author-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.author-id {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.space-list-items {
+ margin-bottom: 7px;
+}
