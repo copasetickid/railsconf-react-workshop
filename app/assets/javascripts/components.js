@@ -1,1 +1,4 @@
-//= require_tree ./components
+/*
+*= require components/directory
+*= require components/app
+*/

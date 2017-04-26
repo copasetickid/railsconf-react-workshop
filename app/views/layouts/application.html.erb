@@ -9,7 +9,9 @@
 
   <body>
     <%= render 'shared/header' %>
-    <%= yield %>
+    <div id="root">
+      <%= yield %>
+    </div>
     <%= javascript_include_tag 'application' %>
   </body>
 </html>
